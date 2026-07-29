@@ -1,8 +1,29 @@
 aid: itzcash
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/itzcash.png
 name: Itzcash
-description: Itzcash is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Itzcash (ItzCash Card Ltd, operated by Ebix Payment Services Private Limited,
+  CIN U74999MH2006PTC160835, Mumbai) was one of India's early prepaid payment and
+  digital-payments companies, offering prepaid/gift cards, utility and bill payments,
+  domestic money transfer, insurance and travel payments, and an agent-assisted retail
+  payment network across India. The company was acquired by Ebix, Inc. in 2017 and folded
+  into the EbixCash financial-exchange business. The ItzCash brand has since been retired:
+  www.itzcash.com now redirects to ebixcash.com, and there is no first-party ItzCash
+  developer portal, public API, or OpenAPI definition. This profile was surfaced as a
+  Lightspeed Venture Partners portfolio company and is retained as a historical company
+  record in the API Evangelist network. Any live API surface belongs to the parent EbixCash
+  entity (an "Ebixcash API Hub" root responds at api.ebixcash.com), not to the ItzCash brand.
 url: https://raw.githubusercontent.com/api-evangelist/itzcash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,36 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: retired-brand
+x-status-detail: >-
+  Acquired by Ebix (2017) and merged into EbixCash; www.itzcash.com redirects to
+  ebixcash.com. No first-party ItzCash developer/API surface exists.
+x-successor: ebixcash
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Payments
+- Prepaid Cards
+- Digital Payments
+- Fintech
+- Bill Payments
+- Money Transfer
+- India
+common:
+- type: DomainSecurity
+  url: security/itzcash-domain-security.yml
+- type: Website
+  url: https://www.itzcash.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
