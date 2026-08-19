@@ -36,7 +36,7 @@ x-status-detail: >-
   Acquired by Ebix (2017) and merged into EbixCash; www.itzcash.com redirects to
   ebixcash.com. No first-party ItzCash developer/API surface exists.
 x-successor: ebixcash
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
