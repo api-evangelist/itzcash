@@ -60,6 +60,11 @@ tags:
 - Money Transfer
 - India
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/ebix/
+  name: Ebix
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Ebix, Inc."
 - type: DomainSecurity
   url: security/itzcash-domain-security.yml
 - type: Website
