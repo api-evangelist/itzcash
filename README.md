@@ -64,6 +64,46 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Itzcash is a company surfaced as a portfolio company of lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: lightspeed-venture-partners
+**Status:** retired-brand
+
+Itzcash (ItzCash Card Ltd, operated by Ebix Payment Services Private Limited, CIN U74999MH2006PTC160835, Mumbai) was one of India's early prepaid payment and digital-payments companies, offering prepaid/gift cards, utility and bill payments, domestic money transfer, insurance and travel payments, and an agent-assisted retail payment network across India. The company was acquired by Ebix, Inc. in 2017 and folded into the EbixCash financial-exchange business. The ItzCash brand has since been retired: www.itzcash.com now redirects to ebixcash.com, and there is no first-party ItzCash developer portal, public API, or OpenAPI definition. This profile was surfaced as a Lightspeed Venture Partners portfolio company and is retained as a historical company record in the API Evangelist network. Any live API surface belongs to the parent EbixCash entity (an "Ebixcash API Hub" root responds at api.ebixcash.com), not to the ItzCash brand.
+
+**Areas:** Company · Payments · Prepaid Cards · Digital Payments · Fintech · Bill Payments · Money Transfer · India
+
+## Itzcash on APIs.io (historical record)
+
+Everything profiled for Itzcash is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/itzcash/](https://apis.io/providers/itzcash/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Itzcash Domain Security](https://apis.io/security/itzcash/itzcash-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.itzcash.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Itzcash: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/itzcash/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
